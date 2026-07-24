@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-07-24T20:07:17.746Z",
+  "windowDays": 7,
+  "ledger": {
+    "totals": {
+      "pass": 1151,
+      "fail": 664,
+      "info": 305,
+      "warn": 0
+    },
+    "totalRuns": 2120,
+    "passRate": 54.3,
+    "pipelines": {
+      "ada-shadow-enroll": {
+        "pass": 169,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T20:07:02Z",
+        "lastDetail": "exit=0"
+      },
+      "gmgn-lab-resolver": {
+        "pass": 672,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T20:02:45Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-ceo-cashflow": {
+        "pass": 56,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T18:00:03Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-hourly-enrichment": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T20:00:33Z",
+        "lastDetail": "exit=0"
+      },
+      "trading": {
+        "pass": 0,
+        "fail": 0,
+        "info": 183,
+        "warn": 0,
+        "lastTs": "2026-07-24T20:00:32Z",
+        "lastDetail": "G2 survival: tracked=431 final=305 survived=52 faded=4 rugged=248 collapsed=1 trapped=0 rug_rate=0.816 (polled 23, +0 fi"
+      },
+      "loop-health": {
+        "pass": 17,
+        "fail": 14,
+        "info": 4,
+        "warn": 0,
+        "lastTs": "2026-07-24T18:20:01Z",
+        "lastDetail": "exit=0"
+      },
+      "memory-aggregator-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T06:00:01Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-email-ingest": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T06:34:01Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-auto-enrich": {
+        "pass": 9,
+        "fail": 2,
+        "info": 4,
+        "warn": 0,
+        "lastTs": "2026-07-24T08:11:35Z",
+        "lastDetail": "exit=0"
+      },
+      "enrichment": {
+        "pass": 16,
+        "fail": 0,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-07-24T08:30:02Z",
+        "lastDetail": "yt-stats: 0 notes to enrich"
+      },
+      "lena-panafricanist": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-scout": {
+        "pass": 5,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T08:11:35Z",
+        "lastDetail": "run complete"
+      },
+      "bitget": {
+        "pass": 0,
+        "fail": 2,
+        "info": 21,
+        "warn": 0,
+        "lastTs": "2026-07-24T09:02:55Z",
+        "lastDetail": "autonomous-fix(graph): no_change_needed confirmed — Both 7d fails are infra/by-design, not in-scope code defects. (1) 07"
+      },
+      "noze-autonomous-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 6,
+        "warn": 0,
+        "lastTs": "2026-07-24T08:50:58Z",
+        "lastDetail": "tracked=30 recurring=5 date=2026-07-24"
+      },
+      "content": {
+        "pass": 0,
+        "fail": 4,
+        "info": 53,
+        "warn": 0,
+        "lastTs": "2026-07-24T14:30:51Z",
+        "lastDetail": "handoff 20260724-afternoon delivered=True topic=Kimi K3: China's Open-Source Challenge to US AI Dominance"
+      },
+      "ada-follow-confluence": {
+        "pass": 0,
+        "fail": 72,
+        "info": 6,
+        "warn": 0,
+        "lastTs": "2026-07-24T12:13:03Z",
+        "lastDetail": "exit=1   File \"/home/ada-bot/.openclaw/workspace/gmgn-pipeline/follow_confluence_monitor.py\", line 77, in poll_feed     "
+      },
+      "gilfy-capability-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-24T09:31:14Z",
+        "lastDetail": "scout complete"
+      },
+      "fleet-wiring-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-22T09:31:59Z",
+        "lastDetail": "0 issues, 0 auto-fixed"
+      },
+      "wikimind-sync-pull": {
+        "pass": 0,
+        "fail": 567,
+        "info": 6,
+        "warn": 0,
+        "lastTs": "2026-07-24T09:02:55Z",
+        "lastDetail": "autonomous-fix(graph): no_change_needed confirmed — External credential failure, NOT a pipeline defect. The 6 assigned f"
+      },
+      "claude-plugin-scout": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-19T23:00:59Z",
+        "lastDetail": "plugin-scout complete rc=0"
+      },
+      "memory-aggregator-weekly": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-20T08:00:03Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-graph-health": {
+        "pass": 0,
+        "fail": 1,
+        "info": 3,
+        "warn": 0,
+        "lastTs": "2026-07-23T21:36:17Z",
+        "lastDetail": "graph-eng Wave W: vault remediation — R1 358 spam quarantined, R2 15 dup-twins, R3 38 hub stubs (index broken 38→0), R4 "
+      },
+      "wikimind-lint": {
+        "pass": 1,
+        "fail": 2,
+        "info": 3,
+        "warn": 0,
+        "lastTs": "2026-07-23T09:16:59Z",
+        "lastDetail": "autonomous-fix 2026-07-23: both fails 07-20 pre-date E2BIG fix; stdin file-redirect verified in place (wikimind_lint_san"
+      },
+      "gmgn": {
+        "pass": 0,
+        "fail": 0,
+        "info": 5,
+        "warn": 0,
+        "lastTs": "2026-07-23T17:36:26Z",
+        "lastDetail": "orchestrator-mod WL: gmgn_journal accessor + first reader migrated + v4 lite-api host fix — see handoffs note"
+      },
+      "dn": {
+        "pass": 0,
+        "fail": 0,
+        "info": 3,
+        "warn": 0,
+        "lastTs": "2026-07-23T16:52:01Z",
+        "lastDetail": "orchestrator-mod W1: council.py advisors parallelized ThreadPool(3) (graph-eng M1) — see handoffs/fleet-graph-engineerin"
+      },
+      "capability-council": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-20T10:06:49Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-install": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-20T10:25:02Z",
+        "lastDetail": "exit=0"
+      },
+      "strategy-lab-refresh": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-22T09:23:57Z",
+        "lastDetail": "autonomous-fix 2026-07-22: down since 07-12T22:30Z — hard-fail on purged ada stats.json (5th missed reader of bug_bitget"
+      },
+      "gsv7-lab": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-07-22T09:23:57Z",
+        "lastDetail": "autonomous-fix 2026-07-22: build_report.py:28 ZeroDivisionError — ada gmgn_portfolio_truth USD fields all 0.0 (indexer, "
+      },
+      "ada-gmgn-survival": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-07-24T11:06:40Z",
+        "lastDetail": "signal=SIGTERM exit=143 "
+      }
+    }
+  },
+  "current": {
+    "healthy": 29,
+    "total": 30,
+    "pct": 96.7,
+    "incidents": [
+      {
+        "pipeline": "ada-follow-confluence",
+        "since": "2026-07-24T10:59:57Z",
+        "streak": 69,
+        "lastTs": "2026-07-24T12:13:03Z",
+        "detail": "exit=1   File \"/home/ada-bot/.openclaw/workspace/gmgn-pipeline/follow_confluence_monitor.py\", line 77, in poll_feed     raise RuntimeError(f\"gmgn-cli failed: {o"
+      }
+    ]
+  },
+  "services": {
+    "lena": "active",
+    "ada": "active",
+    "gilfy": "active",
+    "noze": "active",
+    "hermes": "active"
+  },
+  "journals": {
+    "liveExecutions": null
+  }
+}
