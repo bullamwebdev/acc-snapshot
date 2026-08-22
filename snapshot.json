@@ -1,0 +1,301 @@
+{
+  "generatedAt": "2026-08-22T22:32:15.544Z",
+  "windowDays": 7,
+  "ledger": {
+    "totals": {
+      "pass": 1134,
+      "fail": 376,
+      "info": 269,
+      "warn": 16
+    },
+    "totalRuns": 1795,
+    "passRate": 63.2,
+    "pipelines": {
+      "gmgn-lab-resolver": {
+        "pass": 668,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T22:32:00Z",
+        "lastDetail": "exit=0"
+      },
+      "trading": {
+        "pass": 0,
+        "fail": 7,
+        "info": 181,
+        "warn": 0,
+        "lastTs": "2026-08-22T22:00:00Z",
+        "lastDetail": "G2 survival: tracked=474 final=305 survived=52 faded=4 rugged=248 collapsed=1 trapped=0 rug_rate=0.816 (polled 0, +0 fin"
+      },
+      "lena-hourly-enrichment": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T22:00:31Z",
+        "lastDetail": "exit=0"
+      },
+      "ada-follow-confluence": {
+        "pass": 0,
+        "fail": 326,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-08-22T22:10:25Z",
+        "lastDetail": "exit=1 "
+      },
+      "ada-shadow-enroll": {
+        "pass": 167,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T22:07:03Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-ceo-cashflow": {
+        "pass": 56,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T21:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "loop-health": {
+        "pass": 0,
+        "fail": 28,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-08-22T18:20:02Z",
+        "lastDetail": "exit=1 "
+      },
+      "memory-aggregator-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T06:00:01Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-email-ingest": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T06:32:02Z",
+        "lastDetail": "exit=0"
+      },
+      "exp002-verdict": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T06:40:50Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-auto-enrich": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T06:46:11Z",
+        "lastDetail": "exit=0"
+      },
+      "enrichment": {
+        "pass": 16,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:30:07Z",
+        "lastDetail": "yt-stats: enriched 6/7 notes via api key"
+      },
+      "wikimind-vault-contract": {
+        "pass": 0,
+        "fail": 0,
+        "info": 0,
+        "warn": 16,
+        "lastTs": "2026-08-22T08:30:05Z",
+        "lastDetail": "pre-existing whole-vault violation(s), owner=vault writer: ['email_hiring-part-time-instructor-write-production-grade_19"
+      },
+      "lena-panafricanist": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "bitget": {
+        "pass": 0,
+        "fail": 1,
+        "info": 9,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:00:11Z",
+        "lastDetail": "council bitget: trigger crossed but within 72h cooldown — no-op"
+      },
+      "wikimind-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:02:43Z",
+        "lastDetail": "run complete"
+      },
+      "noze-autonomous-audit": {
+        "pass": 0,
+        "fail": 0,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:50:57Z",
+        "lastDetail": "tracked=30 recurring=2 date=2026-08-22"
+      },
+      "content": {
+        "pass": 0,
+        "fail": 12,
+        "info": 48,
+        "warn": 0,
+        "lastTs": "2026-08-22T14:30:04Z",
+        "lastDetail": "council_write 20260822-afternoon: chair chain exhausted (deepseek-v4-pro:cloud > kimi-k2.6:cloud > glm-5.1:cloud) — fail"
+      },
+      "gilfy-capability-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T09:30:19Z",
+        "lastDetail": "scout complete"
+      },
+      "claude-plugin-scout": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-16T23:00:38Z",
+        "lastDetail": "plugin-scout complete rc=0"
+      },
+      "dn": {
+        "pass": 1,
+        "fail": 1,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-08-18T09:02:33Z",
+        "lastDetail": "council dn biweekly: GO-LIVE=APPROVE Set MAX_POSITIONS = 8, log whether a new position opens within 14 days; if open_boo"
+      },
+      "memory-aggregator-weekly": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-17T08:00:03Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-graph-health": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-08-17T08:45:04Z",
+        "lastDetail": "by-design hygiene report (4634 pages): broken 80 | dup-slug 13 | dup-title 39 | orphans 517 — surface-only, not a fail. "
+      },
+      "gmgn": {
+        "pass": 2,
+        "fail": 0,
+        "info": 5,
+        "warn": 0,
+        "lastTs": "2026-08-22T08:00:11Z",
+        "lastDetail": "council gmgn: trigger no-op — evidence unchanged since last run (hash e91b8dcd9f91)"
+      },
+      "wikimind-lint": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-17T09:06:29Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-council": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-17T10:02:55Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-install": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-17T10:25:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-sync-pull": {
+        "pass": 0,
+        "fail": 1,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-19T00:14:26Z",
+        "lastDetail": "exit=1 "
+      },
+      "ada-gmgn-watchdog": {
+        "pass": 0,
+        "fail": 0,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-08-19T00:20:34Z",
+        "lastDetail": "signal=SIGTERM exit=143 "
+      },
+      "fleet-wiring-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-22T09:31:59Z",
+        "lastDetail": "0 issues, 0 auto-fixed"
+      }
+    }
+  },
+  "current": {
+    "healthy": 26,
+    "total": 30,
+    "pct": 86.7,
+    "incidents": [
+      {
+        "pipeline": "wikimind-sync-pull",
+        "since": "2026-08-03T09:00:13Z",
+        "streak": 4,
+        "lastTs": "2026-08-19T00:14:26Z",
+        "detail": "exit=1 "
+      },
+      {
+        "pipeline": "ada-follow-confluence",
+        "since": "2026-08-22T09:24:09Z",
+        "streak": 26,
+        "lastTs": "2026-08-22T22:10:25Z",
+        "detail": "exit=1 "
+      },
+      {
+        "pipeline": "loop-health",
+        "since": "2026-08-22T12:20:02Z",
+        "streak": 2,
+        "lastTs": "2026-08-22T18:20:02Z",
+        "detail": "exit=1 "
+      },
+      {
+        "pipeline": "content",
+        "since": "2026-08-22T14:30:04Z",
+        "streak": 2,
+        "lastTs": "2026-08-22T14:30:04Z",
+        "detail": "handoff 20260822-afternoon: council write failed (rc=1)"
+      }
+    ]
+  },
+  "services": {
+    "lena": "active",
+    "ada": "active",
+    "gilfy": "active",
+    "noze": "active",
+    "hermes": "active"
+  },
+  "journals": {
+    "liveExecutions": null
+  }
+}
