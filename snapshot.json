@@ -1,0 +1,311 @@
+{
+  "generatedAt": "2026-09-05T22:11:33.799Z",
+  "windowDays": 7,
+  "ledger": {
+    "totals": {
+      "pass": 3515,
+      "fail": 44,
+      "info": 241,
+      "warn": 4
+    },
+    "totalRuns": 3804,
+    "passRate": 92.4,
+    "pipelines": {
+      "exp003-poll": {
+        "pass": 2016,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:11:18Z",
+        "lastDetail": "exit=0"
+      },
+      "gmgn-lab-resolver": {
+        "pass": 672,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:02:45Z",
+        "lastDetail": "exit=0"
+      },
+      "exp003-resolve": {
+        "pass": 336,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:00:54Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-hourly-enrichment": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:00:32Z",
+        "lastDetail": "exit=0"
+      },
+      "trading": {
+        "pass": 0,
+        "fail": 0,
+        "info": 183,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:00:33Z",
+        "lastDetail": "G2 survival: tracked=538 final=305 survived=52 faded=4 rugged=248 collapsed=1 trapped=0 rug_rate=0.816 (polled 25, +0 fi"
+      },
+      "ada-shadow-enroll": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T22:07:03Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-ceo-cashflow": {
+        "pass": 56,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T21:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "loop-health": {
+        "pass": 12,
+        "fail": 16,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-05T18:20:02Z",
+        "lastDetail": "exit=1 "
+      },
+      "memory-aggregator-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T06:00:01Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-email-ingest": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T06:31:00Z",
+        "lastDetail": "exit=0"
+      },
+      "exp002-verdict": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T06:40:20Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-auto-enrich": {
+        "pass": 11,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T08:03:56Z",
+        "lastDetail": "exit=0"
+      },
+      "enrichment": {
+        "pass": 17,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T08:30:07Z",
+        "lastDetail": "yt-stats: enriched 6/7 notes via api key"
+      },
+      "wikimind-vault-contract": {
+        "pass": 0,
+        "fail": 0,
+        "info": 0,
+        "warn": 4,
+        "lastTs": "2026-08-31T08:30:05Z",
+        "lastDetail": "pre-existing whole-vault violation(s), owner=vault writer: ['email_hiring-part-time-instructor-write-production-grade_19"
+      },
+      "valve-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T07:11:49Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-panafricanist": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "bitget": {
+        "pass": 0,
+        "fail": 2,
+        "info": 12,
+        "warn": 0,
+        "lastTs": "2026-09-05T09:01:15Z",
+        "lastDetail": "autonomous-fix(graph): no_change_needed confirmed — Not a bitget pipeline defect. The 2 fail rows (2026-08-30T08:01:16Z,"
+      },
+      "wikimind-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T08:03:56Z",
+        "lastDetail": "run complete"
+      },
+      "noze-autonomous-audit": {
+        "pass": 0,
+        "fail": 0,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-05T08:51:56Z",
+        "lastDetail": "tracked=33 recurring=1 date=2026-09-05"
+      },
+      "ada-follow-confluence": {
+        "pass": 0,
+        "fail": 0,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-08-31T09:01:11Z",
+        "lastDetail": "autonomous-fix(graph): no_change_needed confirmed — The 4 flagged exit=1 rows (2026-08-24T00:12:47..01:44:33Z, ~30min gr"
+      },
+      "content": {
+        "pass": 0,
+        "fail": 26,
+        "info": 24,
+        "warn": 0,
+        "lastTs": "2026-09-05T14:30:04Z",
+        "lastDetail": "council_write 20260905-afternoon: chair chain exhausted (deepseek-v4-pro:cloud > kimi-k2.6:cloud > glm-5.1:cloud) — fail"
+      },
+      "gilfy-capability-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T09:30:04Z",
+        "lastDetail": "scout complete"
+      },
+      "claude-plugin-scout": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-30T23:01:24Z",
+        "lastDetail": "plugin-scout complete rc=0"
+      },
+      "memory-aggregator-weekly": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-31T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-graph-health": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-08-31T08:45:03Z",
+        "lastDetail": "by-design hygiene report (4805 pages): broken 88 | dup-slug 13 | dup-title 41 | orphans 577 — surface-only, not a fail. "
+      },
+      "wikimind-lint": {
+        "pass": 1,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-08-31T09:07:08Z",
+        "lastDetail": "exit=0"
+      },
+      "gmgn": {
+        "pass": 1,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-08-31T09:04:11Z",
+        "lastDetail": "strategy gmgn: APPLIED MAX_TRADES_PER_DAY:15->10 as EXP-20260831T090411Z (baseline follow_cut_fwd.win_rate_pct=62.8, ver"
+      },
+      "dn": {
+        "pass": 1,
+        "fail": 0,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-09-02T06:30:55Z",
+        "lastDetail": "experiment EXP-20260818T090232Z CONFIRMED: open_book.n 7 -> 8 (target >=8) | The book is capacity-constrained rather tha"
+      },
+      "capability-council": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-31T10:06:14Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-install": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-08-31T10:25:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-drain": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-08-31T20:04:20Z",
+        "lastDetail": "inbox rejected test-empty-19fbtest.md: missing or invalid YAML frontmatter"
+      },
+      "framework-ledger-rotate": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-01T04:10:01Z",
+        "lastDetail": "exit=0"
+      },
+      "fleet-wiring-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-05T09:30:53Z",
+        "lastDetail": "0 issues, 0 auto-fixed"
+      }
+    }
+  },
+  "current": {
+    "healthy": 31,
+    "total": 33,
+    "pct": 93.9,
+    "incidents": [
+      {
+        "pipeline": "content",
+        "since": "2026-09-05T14:30:04Z",
+        "streak": 2,
+        "lastTs": "2026-09-05T14:30:04Z",
+        "detail": "handoff 20260905-afternoon: council write failed (rc=1)"
+      },
+      {
+        "pipeline": "loop-health",
+        "since": "2026-09-05T18:20:02Z",
+        "streak": 1,
+        "lastTs": "2026-09-05T18:20:02Z",
+        "detail": "exit=1 "
+      }
+    ]
+  },
+  "services": {
+    "lena": "active",
+    "ada": "active",
+    "gilfy": "active",
+    "noze": "active",
+    "hermes": "active"
+  },
+  "journals": {
+    "liveExecutions": null
+  }
+}
