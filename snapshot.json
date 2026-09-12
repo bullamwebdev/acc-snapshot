@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-09-12T20:03:50.403Z",
+  "windowDays": 7,
+  "ledger": {
+    "totals": {
+      "pass": 3500,
+      "fail": 499,
+      "info": 259,
+      "warn": 0
+    },
+    "totalRuns": 4258,
+    "passRate": 82.2,
+    "pipelines": {
+      "exp003-poll": {
+        "pass": 2016,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:01:00Z",
+        "lastDetail": "exit=0"
+      },
+      "ada-shadow-enroll": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T19:07:49Z",
+        "lastDetail": "exit=0"
+      },
+      "gmgn-lab-resolver": {
+        "pass": 672,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:02:44Z",
+        "lastDetail": "exit=0"
+      },
+      "exp003-resolve": {
+        "pass": 336,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:00:55Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-ceo-cashflow": {
+        "pass": 56,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T18:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-hourly-enrichment": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:00:37Z",
+        "lastDetail": "exit=0"
+      },
+      "trading": {
+        "pass": 0,
+        "fail": 1,
+        "info": 181,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:00:34Z",
+        "lastDetail": "G2 survival: tracked=591 final=305 survived=52 faded=4 rugged=248 collapsed=1 trapped=0 rug_rate=0.816 (polled 25, +0 fi"
+      },
+      "loop-health": {
+        "pass": 0,
+        "fail": 28,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-12T18:20:02Z",
+        "lastDetail": "exit=1 "
+      },
+      "memory-aggregator-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T06:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-email-ingest": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T06:32:02Z",
+        "lastDetail": "exit=0"
+      },
+      "exp002-verdict": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T06:40:55Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-auto-enrich": {
+        "pass": 11,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:03:52Z",
+        "lastDetail": "exit=0"
+      },
+      "enrichment": {
+        "pass": 17,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:30:07Z",
+        "lastDetail": "yt-stats: enriched 6/7 notes via api key"
+      },
+      "valve-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T07:11:48Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-panafricanist": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "bitget": {
+        "pass": 0,
+        "fail": 2,
+        "info": 13,
+        "warn": 0,
+        "lastTs": "2026-09-12T09:06:31Z",
+        "lastDetail": "autonomous-fix(graph): no_change_needed confirmed — NOT a bitget pipeline defect. Root-caused from live output + code, n"
+      },
+      "wikimind-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:03:52Z",
+        "lastDetail": "run complete"
+      },
+      "noze-autonomous-audit": {
+        "pass": 0,
+        "fail": 0,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:51:57Z",
+        "lastDetail": "tracked=28 recurring=3 date=2026-09-12"
+      },
+      "content": {
+        "pass": 0,
+        "fail": 10,
+        "info": 48,
+        "warn": 0,
+        "lastTs": "2026-09-12T14:30:46Z",
+        "lastDetail": "handoff 20260912-afternoon delivered=True topic=OpenAI's biggest math breakthrough is getting ugly..."
+      },
+      "gilfy-capability-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T09:30:09Z",
+        "lastDetail": "scout complete"
+      },
+      "claude-plugin-scout": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-06T23:05:18Z",
+        "lastDetail": "plugin-scout complete rc=0"
+      },
+      "memory-aggregator-weekly": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-07T08:00:03Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-graph-health": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-09-07T08:45:33Z",
+        "lastDetail": "by-design hygiene report (4974 pages): broken 88 | dup-slug 13 | dup-title 48 | orphans 681 — surface-only, not a fail. "
+      },
+      "wikimind-lint": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-07T09:08:48Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-council": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-07T10:03:13Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-install": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-07T10:25:02Z",
+        "lastDetail": "exit=0"
+      },
+      "fleet-wiring-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T09:31:34Z",
+        "lastDetail": "0 issues, 0 auto-fixed"
+      },
+      "ada-gmgn-watchdog": {
+        "pass": 0,
+        "fail": 458,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-09-12T20:03:34Z",
+        "lastDetail": "exit=1 "
+      }
+    }
+  },
+  "current": {
+    "healthy": 26,
+    "total": 28,
+    "pct": 92.9,
+    "incidents": [
+      {
+        "pipeline": "ada-gmgn-watchdog",
+        "since": "2026-09-12T09:07:45Z",
+        "streak": 132,
+        "lastTs": "2026-09-12T20:03:34Z",
+        "detail": "exit=1 "
+      },
+      {
+        "pipeline": "loop-health",
+        "since": "2026-09-12T12:20:02Z",
+        "streak": 2,
+        "lastTs": "2026-09-12T18:20:02Z",
+        "detail": "exit=1 "
+      }
+    ]
+  },
+  "services": {
+    "lena": "active",
+    "ada": "active",
+    "gilfy": "active",
+    "noze": "active",
+    "hermes": "active"
+  },
+  "journals": {
+    "liveExecutions": null
+  }
+}
