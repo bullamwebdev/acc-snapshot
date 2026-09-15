@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-09-15T11:26:29.199Z",
+  "windowDays": 7,
+  "ledger": {
+    "totals": {
+      "pass": 3419,
+      "fail": 1251,
+      "info": 273,
+      "warn": 0
+    },
+    "totalRuns": 4943,
+    "passRate": 69.2,
+    "pipelines": {
+      "exp003-resolve": {
+        "pass": 336,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:00:53Z",
+        "lastDetail": "exit=0"
+      },
+      "exp003-poll": {
+        "pass": 2016,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:26:13Z",
+        "lastDetail": "exit=0"
+      },
+      "gmgn-lab-resolver": {
+        "pass": 672,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:17:45Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-ceo-cashflow": {
+        "pass": 36,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T21:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-hourly-enrichment": {
+        "pass": 108,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T23:00:33Z",
+        "lastDetail": "exit=0"
+      },
+      "trading": {
+        "pass": 0,
+        "fail": 1,
+        "info": 183,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:00:34Z",
+        "lastDetail": "G2 survival: tracked=626 final=305 survived=52 faded=4 rugged=248 collapsed=1 trapped=0 rug_rate=0.816 (polled 25, +0 fi"
+      },
+      "ada-shadow-enroll": {
+        "pass": 168,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:07:03Z",
+        "lastDetail": "exit=0"
+      },
+      "loop-health": {
+        "pass": 0,
+        "fail": 28,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-15T09:05:56Z",
+        "lastDetail": "autonomous-fix(graph): fixer claim REJECTED by verifier — verifier produced no verdict file"
+      },
+      "content": {
+        "pass": 0,
+        "fail": 6,
+        "info": 54,
+        "warn": 0,
+        "lastTs": "2026-09-15T09:05:56Z",
+        "lastDetail": "autonomous-fix(graph): fixer claim REJECTED by verifier — verifier produced no verdict file"
+      },
+      "memory-aggregator-daily": {
+        "pass": 4,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T06:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-email-ingest": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T06:31:06Z",
+        "lastDetail": "exit=0"
+      },
+      "exp002-verdict": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T06:40:55Z",
+        "lastDetail": "exit=0"
+      },
+      "wikimind-auto-enrich": {
+        "pass": 14,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T08:08:54Z",
+        "lastDetail": "exit=0"
+      },
+      "enrichment": {
+        "pass": 20,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T08:30:08Z",
+        "lastDetail": "yt-stats: enriched 4/5 notes via api key"
+      },
+      "valve-daily": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T07:11:50Z",
+        "lastDetail": "exit=0"
+      },
+      "lena-panafricanist": {
+        "pass": 4,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T08:00:02Z",
+        "lastDetail": "exit=0"
+      },
+      "bitget": {
+        "pass": 0,
+        "fail": 1,
+        "info": 12,
+        "warn": 0,
+        "lastTs": "2026-09-15T08:00:14Z",
+        "lastDetail": "council bitget: trigger crossed but within 72h cooldown — no-op"
+      },
+      "wikimind-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T08:08:54Z",
+        "lastDetail": "run complete"
+      },
+      "noze-autonomous-audit": {
+        "pass": 0,
+        "fail": 0,
+        "info": 7,
+        "warn": 0,
+        "lastTs": "2026-09-15T08:51:56Z",
+        "lastDetail": "tracked=29 recurring=1 date=2026-09-15"
+      },
+      "gilfy-capability-scout": {
+        "pass": 7,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-15T09:30:04Z",
+        "lastDetail": "scout complete"
+      },
+      "fleet-wiring-audit": {
+        "pass": 2,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-12T09:31:34Z",
+        "lastDetail": "0 issues, 0 auto-fixed"
+      },
+      "ada-gmgn-watchdog": {
+        "pass": 0,
+        "fail": 1215,
+        "info": 5,
+        "warn": 0,
+        "lastTs": "2026-09-15T11:08:37Z",
+        "lastDetail": "exit=1 "
+      },
+      "claude-plugin-scout": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-13T23:04:00Z",
+        "lastDetail": "plugin-scout complete rc=0"
+      },
+      "wikimind-graph-health": {
+        "pass": 0,
+        "fail": 0,
+        "info": 1,
+        "warn": 0,
+        "lastTs": "2026-09-14T08:45:23Z",
+        "lastDetail": "by-design hygiene report (5170 pages): broken 92 | dup-slug 13 | dup-title 58 | orphans 778 — surface-only, not a fail. "
+      },
+      "gmgn": {
+        "pass": 0,
+        "fail": 0,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-09-15T06:30:56Z",
+        "lastDetail": "experiment EXP-20260831T090411Z REFUTED: follow_cut_fwd.win_rate_pct 62.8 -> 62.2 (target >=65.0) | Throttling to 10 tra"
+      },
+      "wikimind-lint": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-14T09:08:37Z",
+        "lastDetail": "exit=0"
+      },
+      "dn": {
+        "pass": 0,
+        "fail": 0,
+        "info": 2,
+        "warn": 0,
+        "lastTs": "2026-09-14T09:32:07Z",
+        "lastDetail": "council dn biweekly: GO-LIVE=NOT_READY Set EXIT_MIN_APR = 7.0 and monitor n_closed over 14 days; if fewer than 2 additio"
+      },
+      "capability-council": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-14T10:01:58Z",
+        "lastDetail": "exit=0"
+      },
+      "capability-install": {
+        "pass": 1,
+        "fail": 0,
+        "info": 0,
+        "warn": 0,
+        "lastTs": "2026-09-14T10:25:02Z",
+        "lastDetail": "exit=0"
+      }
+    }
+  },
+  "current": {
+    "healthy": 28,
+    "total": 29,
+    "pct": 96.6,
+    "incidents": [
+      {
+        "pipeline": "ada-gmgn-watchdog",
+        "since": "2026-09-15T09:07:59Z",
+        "streak": 26,
+        "lastTs": "2026-09-15T11:08:37Z",
+        "detail": "exit=1 "
+      }
+    ]
+  },
+  "services": {
+    "lena": "active",
+    "ada": "active",
+    "gilfy": "active",
+    "noze": "active",
+    "hermes": "active"
+  },
+  "journals": {
+    "liveExecutions": null
+  }
+}
